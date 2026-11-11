@@ -1,7 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { Home, LayoutDashboard, LogIn, Shield, UserPlus } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import brandLogo from "@/assets/weblitex-domains-logo-transparent.png";
+import { brandLogo } from "@/assets/weblitex-logo-data";
 
 export function SiteHeader({ account = false, admin = false }: { account?: boolean; admin?: boolean }) {
   return (

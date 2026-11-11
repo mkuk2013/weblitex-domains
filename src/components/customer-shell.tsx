@@ -3,7 +3,7 @@ import { BookOpen, Boxes, ChevronRight, CircleUserRound, Gauge, Globe2, LogOut, 
 import { useState, type ReactNode } from "react";
 import { Button } from "@/components/ui/button";
 import { supabase } from "@/integrations/supabase/client";
-import brandLogo from "@/assets/weblitex-domains-logo-transparent.png";
+import { brandLogo } from "@/assets/weblitex-logo-data";
 
 const nav = [
   { to: "/dashboard" as const, label: "Overview", icon: Gauge },
