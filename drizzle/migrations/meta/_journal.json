@@ -1,0 +1,41 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1790711694009,
+      "tag": "0000_create_weblitex_marketplace",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1790711830244,
+      "tag": "0001_restrict_role_function_execution",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1790711962899,
+      "tag": "0002_harden_role_check_function",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1790714403623,
+      "tag": "0003_apply_promo_to_pending_request",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1790775192435,
+      "tag": "0004_payment_receipts",
+      "breakpoints": true
+    }
+  ]
+}
